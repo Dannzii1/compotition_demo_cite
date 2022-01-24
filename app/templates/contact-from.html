@@ -1,0 +1,61 @@
+
+
+<form class="px-8 pt-6 pb-8 mb-4 from-transparent rounded" method="post" action="{{ form_action }}" novalidate>
+        {{form.csrf_token}}
+    <div class="flex">
+        <div class="mb-4 w-1/2" style="padding-left: 8px; width: 590px; margin-left: 145px;">
+             {% if form.full_name.errors %}
+                 <div class="danger-text">
+                     {% for error in form.full_name.errors%}
+                        {{error}}
+                     {% endfor %}
+                     {{form.full_name(class=" px-3 mt-3.5 text-sm form-control is-invalid leading-tight text-gray-700 border-pink-600 rounded shadow appearance-none focus:outline-none focus:shadow-outline")}}
+                 </div>
+             {% else %}
+            {{form.full_name(class="px-3 mt-3.5 text-sm form-control outline-none leading-tight text-gray-700 border-pink-600 rounded shadow appearance-none focus:outline-none focus:shadow-outline", placeholder="Full Name:") }}
+            {% endif %}
+        </div>
+        <div class="mb-4 w-1/2" style="padding-left: 17px; margin-right: 154px; width: 594px;">
+            {% if form.email.errors %}
+                 <div class="danger-text">
+                     {% for error in form.email.errors%}
+                        {{error}}
+                     {% endfor %}
+                     {{form.email(class="px-3 mt-3.5 text-sm form-control is-invalid leading-tight text-gray-700 border-pink-600 rounded shadow appearance-none focus:outline-none focus:shadow-outline")}}
+                 </div>
+            {% else %}
+            {{form.email(class="px-3 mt-3.5  mb-3 text-sm leading-tight text-gray-700 form-control outline-none border-pink-600 rounded shadow appearance-none focus:outline-none focus:shadow-outline", placeholder="Email:") }}
+            {% endif %}
+        </div>
+    </div>
+        <div class="mb-4" style=" width: 1148px; margin-left: auto; margin-right: auto;">
+            {% if form.contestant.errors %}
+                 <div class="danger-text">
+                     {% for error in form.contestant.errors%}
+                        {{error}}
+                     {% endfor %}
+                     {{form.contestant(class="w-full px-3 py-2 text-sm form-control is-invalid leading-tight text-gray-700 border-pink-600 rounded shadow appearance-none focus:outline-none focus:shadow-outline")}}
+                 </div>
+            {% else %}
+            {{form.contestant(class="w-full px-3 py-2 mb-3 text-sm leading-tight text-gray-700 form-control outline-none border-pink-600 rounded shadow appearance-none focus:outline-none focus:shadow-outline", placeholder="Favorite Contestant and mix drink they made:") }}
+            {% endif %}
+        </div>
+        <div class="mb-4" style=" width: 1148px; margin-left: auto; margin-right: auto;">
+            {% if form.versus.errors %}
+                 <div class="danger-text">
+                     {% for error in form.email.errors%}
+                        {{error}}
+                     {% endfor %}
+                     {{form.versus(class="w-full px-3 py-2 text-sm form-control is-invalid leading-tight text-gray-700 border-pink-600 rounded shadow appearance-none focus:outline-none focus:shadow-outline")}}
+                 </div>
+            {% else %}
+            {{form.versus(class="w-full px-3 py-2 mb-3 mt-5 text-sm leading-tight text-gray-700 form-control outline-none border-pink-600 rounded shadow appearance-none focus:outline-none focus:shadow-outline", placeholder="Favorite face off moment between two contestants:") }}
+            {% endif %}
+        </div>
+        <div class="mb-6 text-center">
+            <button style="background-color: #FD547D;"
+                class="w-2/5 px-4 py-2 font-bold text-white rounded-lg focus:outline-none focus:shadow-outline"
+                type="submit" > Send
+            </button>
+        </div>
+</form>

@@ -1,0 +1,322 @@
+.heading1{
+    margin-left: 205px;
+    overflow: visible;
+    width: 451px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Palatino Linotype;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    color: rgba(17,15,16,1);
+    text-transform: capitalize;
+    top:  175px;
+    position: absolute;
+
+}
+
+.heading2{
+    left: 285px;
+    top: 201px;
+    position: absolute;
+    overflow: visible;
+    width: 479px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Baskerville Old Face;
+    font-style: normal;
+    font-weight: normal;
+    color: rgba(253,135,172,1);
+    font-size: 50px;
+}
+
+.heading3{
+    left: 344px;
+    top: 265px;
+    position: absolute;
+    overflow: visible;
+    width: 500px;
+    white-space: nowrap;
+    font-family: Palatino Linotype;
+    font-style: normal;
+    font-weight: normal;
+    color: black;
+    font-size: 25px;
+}
+
+
+
+.rum1{
+    position: absolute;
+    width: 207px;
+    height: 423px;
+    left: 817px;
+    top: 160px;
+    overflow: visible;
+}
+
+
+.promo_text{
+    top: 353px;
+    left: 304px;
+    position: absolute;
+    overflow: visible;
+    font-family: French Script MT;
+    font-style: normal;
+    font-weight: normal;
+    width: 479px;
+    white-space: nowrap;
+    font-size: 32px;
+}
+
+.logos{
+    position: absolute;
+    width: 95px;
+    height: 70px;
+    white-space: nowrap;
+    top: 127px;
+    left: 379px;
+    display: flex;
+    flex-direction: row;
+}
+
+.ellipses{
+    position: absolute;
+    top: 263px;
+    left: 695px;
+    overflow: visible;
+    width: 60px;
+    height: 55px;
+    z-index: -12;
+}
+
+.ellipses2{
+    position: absolute;
+    top: 778px;
+    left: 749px;
+    overflow: visible;
+    width: 60px;
+    height: 55px;
+    z-index: -12;
+    transform: scaleX(-1);
+}
+
+.ellipses3{
+    position: absolute;
+    top: 998px;
+    left: 715px;
+    overflow: visible;
+    width: 60px;
+    height: 55px;
+    z-index: -12;
+}
+
+.ellipses-pink{
+    position: absolute;
+    top: 576px;
+    left: 1342px;
+    overflow: visible;
+    width: 150px;
+    height: 100px;
+    z-index: -12;
+}
+
+.ellipses-pink1{
+    position: absolute;
+    top: 561px;
+    left: 259px;
+    overflow: visible;
+    width: 150px;
+    height: 100px;
+    z-index: -12;
+}
+
+.ellipses-pink2{
+    position: absolute;
+    top: 927px;
+    left: 68px;
+    overflow: visible;
+    width: 150px;
+    height: 100px;
+    z-index: -12;
+}
+
+.ellipses-pink3{
+    position: absolute;
+    top: 1363px;
+    left: 165px;
+    overflow: visible;
+    width: 150px;
+    height: 100px;
+    z-index: -12;
+}
+
+.ellipses-pink4{
+    position: absolute;
+    top: 1161px;
+    left: 1130px;
+    overflow: visible;
+    width: 150px;
+    height: 100px;
+    z-index: -12;
+}
+
+.detail-bar{
+    text-align: center;
+    font-size: 30px;
+    font-family: Palatino Linotype;
+}
+
+.line_space{
+    margin-left: auto;
+    margin-right: auto;
+    height: 8px;
+}
+
+#text1{
+    margin-right: 80px;
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.rum2{
+    width: 268px;
+    height: 229px;
+    float: right;
+    margin-right: 103px;
+}
+
+.video1{
+    width: 268px;
+    height: 229px;
+    float: right;
+    margin-right: 359px;
+}
+
+
+#text2{
+    margin-left: 127px;
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+#change-size{
+    font-size:2.25rem;;
+}
+
+
+.bt-pic{
+   margin-left:auto;
+   margin-right: 56px;
+   display:block;
+}
+
+.bt-words {
+    font-size: 17px;
+    font-family: Sitka Banner;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.bt-rows{
+    margin-left: auto;
+    margin-right: auto;
+    width: 862px;
+    margin-top: 78px;
+}
+
+.ellipses4{
+    position: absolute;
+    top: 1486px;
+    left: 958px;
+    overflow: visible;
+    width: 60px;
+    height: 55px;
+    z-index: -12;
+    transform: scaleX(-1);
+
+}
+
+
+.ellipses-pink5{
+    position: absolute;
+    top: 1716px;
+    left: 916px;
+    overflow: visible;
+    width: 150px;
+    height: 101px;
+    z-index: -12;
+}
+
+
+.ellipses-pink6{
+    position: absolute;
+    top: 1651px;
+    left: 117px;
+    overflow: visible;
+    width: 150px;
+    height: 101px;
+    z-index: -12;
+}
+
+
+.ellipses-pink7{
+    position: absolute;
+    top: 2067px;
+    left: 254px;
+    overflow: visible;
+    width: 150px;
+    height: 101px;
+    z-index: -12;
+}
+.ellipses-pink8{
+    position: absolute;
+    top: 2116px;
+    left: 1265px;
+    overflow: visible;
+    width: 150px;
+    height: 101px;
+    z-index: -12;
+}
+.ellipses-pink9{
+    position: absolute;
+    top: 2313px;
+    left: 116px;
+    overflow: visible;
+    width: 150px;
+    height: 101px;
+    z-index: -12;
+}
+
+.ellipses5{
+    position: absolute;
+    top: 2215px;
+    left: 357px;
+    overflow: visible;
+    width: 292px;
+    height: 55px;
+    z-index: -12;
+}
+
+.ellipses6{
+    position: absolute;
+    top: 2268px;
+    left: 1126px;
+    overflow: visible;
+    width: 292px;
+    height: 55px;
+    z-index: -12;
+}
+
+#ft-follow{
+    position: absolute;
+    font-family:French Script MT;
+    color:rgba(253,84,125,1);
+    text-align: center;
+    font-size: 49px;
+    left: 706.5px;
+    top: 2717px;
+}
