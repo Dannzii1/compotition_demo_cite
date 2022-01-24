@@ -320,3 +320,77 @@
     left: 706.5px;
     top: 2717px;
 }
+
+
+#ft-img{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    height: 8px;
+    left: 669.5px;
+    top: 2782px;
+}
+
+#ft-fb{
+    position: absolute;
+    width: 52.239px;
+    height: 48px;
+    left: 670px;
+    top: 2803px;
+    overflow: visible;
+}
+
+#ft-insta{
+    position: absolute;
+    width: 52.239px;
+    height: 48px;
+    left: 765px;
+    top: 2803px;
+    overflow: visible;
+}
+
+#ft-twit{
+    position: absolute;
+    width: 52.239px;
+    height: 48px;
+    left: 861px;
+    top: 2803px;
+    overflow: visible;
+}
+
+#ft-dot{
+    position: absolute;
+     width: 26.239px;
+     height: 48px;
+     left: 1450.5px;
+    top: 2678px;
+}
+
+#ft-drink{
+    position: absolute;
+    width: 427px;
+    height: 138px;
+    left: -150px;
+    top: 2810px;
+
+}
+
+
+#green-dot{
+    position: absolute;
+    top: 406px;
+    left: 38px;
+    overflow: visible;
+    width: 60px;
+    height: 55px;
+}
+
+
+#green-dot2{
+    position: absolute;
+    top: 226px;
+    left: 1434px;
+    overflow: visible;
+    width: 60px;
+    height: 23px;
+}
