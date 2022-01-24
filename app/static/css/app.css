@@ -50,7 +50,7 @@
     position: absolute;
     width: 207px;
     height: 423px;
-    left: 817px;
+    left: 914px;
     top: 160px;
     overflow: visible;
 }
@@ -89,6 +89,7 @@
     height: 55px;
     z-index: -12;
 }
+
 
 .ellipses2{
     position: absolute;
@@ -394,3 +395,5 @@
     width: 60px;
     height: 23px;
 }
+
+
