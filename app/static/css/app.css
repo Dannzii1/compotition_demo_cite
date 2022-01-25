@@ -15,6 +15,7 @@
 
 }
 
+
 .heading2{
     left: 285px;
     top: 201px;
@@ -209,9 +210,7 @@
 
 
 .bt-pic{
-   margin-left:auto;
-   margin-right: 56px;
-   display:block;
+   justify-content: center;
 }
 
 .bt-words {
@@ -223,16 +222,14 @@
 
 
 .bt-rows{
-    margin-left: auto;
-    margin-right: auto;
-    width: 862px;
-    margin-top: 78px;
+    width: 130px;
+    height: 121px;
 }
 
 .ellipses4{
     position: absolute;
     top: 1486px;
-    left: 958px;
+    left: 1067px;
     overflow: visible;
     width: 60px;
     height: 55px;
@@ -245,7 +242,7 @@
 .ellipses-pink5{
     position: absolute;
     top: 1716px;
-    left: 916px;
+    left: 1021px;
     overflow: visible;
     width: 150px;
     height: 101px;
@@ -372,7 +369,7 @@
     width: 427px;
     height: 138px;
     left: -150px;
-    top: 2810px;
+    top: 2795px;
 
 }
 
